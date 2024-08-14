@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    *{
+        color: black;
+        
+    }
+
+
+    #img1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://media.istockphoto.com/id/1269581742/photo/3d-illustration-of-a-kitchen-with-night-lighting.jpg?s=2048x2048&w=is&k=20&c=2p3EuioKRR1KZ3R_6oEUTchsj-ja7uN_wPU2TDzAEgM=");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+    }
+
+
+    #navbar{
+        height: 80px;
+        width: 50%;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        left: 620px;
+    }
+
+
+    #logo{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://img.freepik.com/premium-vector/chef-hat-vector-illustration-cocking-logo_135595-38009.jpg");
+        background-repeat: no-repeat;
+        background-size: 80px 60px;
+        position: absolute;
+        left: 20px;
+    }
+
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;  
+    }
+
+
+    #content{
+        color: white;
+        position: absolute;
+        top: 120px;
+        left: 360px;
+        font-style: italic;
+    }
+
+
+    button{
+        padding: 15px 30px ;
+        background-color: gray;
+        border-radius: 40px;
+        border: 2px solid yellow;
+        position: absolute;
+        top:350px ;
+        left: 220px;
+    }
+
+
+    button:hover{
+        color: red;
+        background-color:yellow;
+        border: 2px solid red;
+    }
+
+
+    #cook{
+        height: 150px;
+       width: 200px;
+        background-image: url("https://pnghq.com/wp-content/uploads/delicious-food-logo-design-png-transparent-image-2048x2048.png");
+        background-repeat: no-repeat;
+        background-size: 200px 150px;
+    }
+
+
+    #img2{
+        height: 100vh;
+        width: 100vw;
+       
+        background-image: url("https://images.unsplash.com/photo-1606843046080-45bf7a23c39f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+       
+        
+    }
+
+    #img3{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.7xj4BCXJXcqEbgCeH7hgbwHaH7?w=1500&h=1606&rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 250px 0px;
+    }
+
+    #img4{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.YRmxbXO8dxw7xyFPRBpzDQHaE7?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+       /* border-radius: 50%; */
+        background-position: 510px 0px;
+    }
+
+    #img5{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/R.327654bc9b0d5a4c03e642ea71e75e0e?rik=8WZCzKg48LxWsg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-b6XSdmFfepg%2fUXcCBAJ1lII%2fAAAAAAAABSs%2fqhnTOzePZ84%2fs1600%2f_DSC5240.JPG&ehk=Evz7uYdqCnGp4JYoE%2b5jc2KWoGbeCuJ8vqzc%2bypbOKU%3d&risl=&pid=ImgRaw&r=0");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 760px 0px;
+    }
+
+    #img6{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.fiNmoRrLLcu391qeZNQsyAHaHa?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+       
+        background-position: 1000px 0px;
+    }
+
+
+
+    #box1{
+        display: flex;
+        margin-top: 30px;
+        
+    }
+
+    
+
+    #content1{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 950px;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    
+   
+    #img7{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.s47KwYDO4Qs2EATqVlzSDAHaHa?w=1200&h=1200&rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 0px 0px;
+    }
+
+    #img8{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://b.zmtcdn.com/data/pictures/chains/9/5700839/1e3dc724ae73eb087311409687b643ef.png");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+       /* border-radius: 50%; */
+        background-position: 250px 0px;
+    }
+
+    #img9{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.LPwG8GVDJfUWFn8zubpNPAHaLH?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 510px 0px;
+    }
+
+    #img10{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.M_FviWmRoZOfSNEpyTE6iQHaK_?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 760px 0px;
+    }
+
+    #img11{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.AUlMzRWqLB_2gq6VClnOdwHaLG?w=683&h=1024&rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        
+        background-position: 1000px 0px;
+    }
+
+
+    #box2{
+        display: flex;
+        margin-top: 30px;
+        position: absolute;
+        top: 1000px;
+
+    }
+
+    #content2{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 200px;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+   
+
+    
+    #img12{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://live.staticflickr.com/8179/29256887321_51b21baab4_b.jpg");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 0px 0px;
+    }
+
+    #img13{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://www.zoeclarkcakes.com/wp-content/uploads/2014/09/Strawberry-minis-e1487818755960.jpg");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+       /* border-radius: 50%; */
+        background-position: 250px 0px;
+    }
+
+    #img14{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.iYUyauEgLB67uzXH2LiYjwHaE7?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 510px 0px;
+    }
+
+    #img15{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.l8FX8QFL8KXKdelNtK87TQHaHa?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        /* border-radius: 50%; */
+        background-position: 760px 0px;
+    }
+
+    #img16{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://th.bing.com/th/id/OIP.EVkgaivLgPOziZkgH2MsBwAAAA?rs=1&pid=ImgDetMain");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        
+        background-position: 1000px 0px;
+    }
+
+
+
+    #box3{
+        display: flex;
+        margin-top: 30px;
+        position: absolute;
+        top: 280PX;
+        
+
+    }
+
+    #content3{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 510px;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #content4{
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        text-align: justify;
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #footer{
+        background-color: gray;
+        height: 300px;
+        width: 100VW;
+        position: absolute;
+        top: 480px;
+    }
+
+    #fc{
+        display: flex;
+        justify-content: space-around;
+        font-size: 13px;
+    }
+
+    #fp{
+        width: 70%;
+        font-size: 17px;
+    }
+
+
+    
+    </style>
+</head>
+
+<body>
+    <div id="img1">
+        <div id="navbar">
+
+            <a href="">HOME</a>
+            <a href="">REGISTER</a>
+            <a href="">CONTACT-US</a>
+        </div>
+    
+        <!-- <div id="logo"></div> -->
+
+        <div id="content">
+
+            <center><h1 style="color: aliceblue ;">WELCOME TO YOUR KITCHEN</h1></center>
+            <center><h3 style="color: aliceblue ;">HEALTHY TUMMY 😍 HAPPY MOOD </h3></center>
+            <center><p style="color: aliceblue ;">LIFE IS TOO SHORT , NOT TO COOK FOR THE PERSON YOU LOVE........❤️</p></center>
+            <center><P style="color: aliceblue ;">ALLOW THE BEAUTY OF YOUR COOKING TO BRIGHTEN SOMEONE'S DAY</P></center>
+            <center><div id="cook"></div></center>
+            <center><a href="login.html"><button>LOGIN</button></a></center>
+    </div>
+    
+    </div>
+    <br>
+
+    <center><H2 style="color: blue;">CONSISTING THE RECIPESS OFF....🤤</H2></center>
+    <br>
+   
+      <div id="box1">
+        <div id="img2">
+            <div id="img3">
+                <div id="img4">
+                    <div id="img5">
+                        <div id="img6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="content1">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <h1 style="color: red;">NON-VEG</h1>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <H1 style="color: red;">VEG</H1>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <H1 style="color: red;">DIET-FOOD</H1>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <H1 style="color: red;">FAST-FOODS</H1>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+        <h1 style="color: red;">SWEETS</h1>
+      </div>
+
+      <div>
+
+        <div id="box2">
+            
+                <div id="img7">
+                    <div id="img8">
+                        <div id="img9">
+                            <div id="img10">
+                                <div id="img11">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div id="content2">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <H1 style="color: red;">PASTA</H1>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <H1 style="color: red;">NONVEG-STARTERS</H1>
+            
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <H1 style="color: red;">VEG-STATERS</H1>
+            
+    
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+           <h1 style="color: red;">SALADS</h1>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    
+           <H1 style="color: red;">MOCKTAIL</H1>
+
+          </div>
+
+          <div id="box3">
+            
+                    <div id="img12">
+                        <div id="img13">
+                            <div id="img14">
+                                <div id="img15">
+                                    <div id="img16">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+          <div id="content3">
+
+           
+    
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <H1 style="color: red;">FRESH-JUICE</H1>
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <H1 style="color: red;">CAKES</H1>
+          
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+          <H1 style="color: red;">BREAKFAST</H1>
+          
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+         <h1 style="color: red;">MEALS</h1>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  
+         <H1 style="color: red;">EGG-RECIPE</H1>
+
+          <div id="content4">
+          <p>Enjoying the cooking process is about more than just preparing a meal; it’s a creative and fulfilling activity. From selecting fresh ingredients to experimenting with flavors and techniques, cooking allows for personal expression and innovation. The rhythmic chopping of vegetables, the sizzle of ingredients in a hot pan, and the aroma of spices blending together can be incredibly soothing and rewarding. For many, cooking is a way to unwind, focus, and take pride in creating something delicious from scratch. Sharing a home-cooked meal with friends or family enhances the experience, turning the act of cooking into an opportunity for connection and joy. </p>
+
+          <p> Enjoying cooking means finding satisfaction and creativity in preparing meals. It's the process of selecting fresh ingredients, experimenting with flavors, and transforming them into delicious dishes that bring joy. Cooking can be a meditative and rewarding experience, allowing you to express yourself through food. It also provides an opportunity to share love and care with others, making it a cherished activity for many.
+          </p>
+
+          <p>Enjoying cooking means finding pleasure and satisfaction in the process of preparing meals. It's about immersing yourself in the creative and therapeutic aspects of combining ingredients, experimenting with flavors, and perfecting techniques. Cooking can be a relaxing and fulfilling activity that allows you to express your creativity, learn new skills, and take pride in crafting delicious dishes for yourself and others. Whether you're following a recipe or inventing your own, the joy of cooking comes from the journey as much as the final product.
+          </p>
+        </div>
+        <br><br><br>
+        <div id="footer">
+            <div id="fc">
+            <h3>ABOUT US</h3>
+            <h3>PRODUCTS</h3>
+            <h3>AWARDS</h3>
+            <h3>HELP</h3>
+            <h3>CONTACT</h3>
+            </div>
+
+            <br>
+            <center><h1>***************
+                <br>
+                <br>
+            </h1></center>
+             
+            <center><div id="fp">
+                <p>Cooking brings happiness by allowing you to express creativity, experience a sense of accomplishment, and connect with others. The process of preparing a meal can be both meditative and relaxing, offering a moment of mindfulness in a busy day. Sharing a home-cooked dish with loved ones fosters relationships and creates a sense of community, while the ability to control ingredients contributes to healthier living, enhancing overall well-being and joy.
+
+                </p></center>
+            </div>
+
+        </div>
+</body>
+</html>
